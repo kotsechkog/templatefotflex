@@ -1,0 +1,181 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	font: 14px/1.43 Lato, sans-serif;
+	margin: 0;
+	background: #fff;
+}
+
+img {
+	border: none;
+}
+
+form,fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+a {
+	color: #1bbc9b;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	display: flex;
+	max-width: 940px;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header {
+	padding: 27px 0;
+	background: #fff;
+}
+
+.nav ul {
+	display: flex;
+	list-style: none;
+}
+
+.nav ul li {
+	margin: 0 0 0 10px;
+}
+
+.nav ul a {
+	color: #444;
+	padding: 10px 12px;
+	line-height: 17px;
+	text-transform: uppercase;
+	transition: background 0.3s ease, color 0.3s ease;
+
+}
+
+.nav ul a:hover {
+	background: #1bbc9b;
+	color: #fff;
+	text-decoration: none;
+}
+
+.visual {
+	height: calc(100vh - 106px);
+	display: flex;
+}
+
+.visual video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.video-container {
+	margin: auto;
+	max-width: 600px;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #fff;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section {
+	min-height: 100vh;
+	background: #fff;
+}
+
+.wrapper {
+
+}
+
+.video-container h1 {
+	font-weight: 100;
+	font-size: 55px;
+	text-transform: uppercase;
+}
+
+.btn {
+	display: inline-block;
+	background: #1bbc9b;
+	color: #444;
+	padding: 10px 12px;
+	line-height: 17px;
+	font-size: 13px;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+	margin-bottom: 20px;
+}
+
+.btn:hover{
+	text-decoration: none;
+	opacity: 0.8;
+	background: #16a086;
+	color: #444;	
+}
+
+.scroll-to {
+	font-size: 50px;
+	color: #fff;
+}
+
+.scroll-to:hover {
+	color: #1bbc9b;
+}
+
+.portfolio .container {
+	flex-direction: column;
+	justify-content: flex-start;
+	font-weight: 400;
+	color: #444;
+	text-align: center;
+}
+
+.portfolio h1 {
+	font-size: 28px;
+
+}
+
+.portfolio p {
+	font-size: 16px;
+	margin: 0 0 45px 0;
+}
+
+.portfolio ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.portfolio ul li {
+	margin: 0 0 0 10px;
+}
+
+.portfolio ul a {
+	background: #1bbc9b;
+	color: #fff;
+	padding: 10px 12px;
+	line-height: 17px;
+	text-transform: uppercase;
+	transition: background 0.3s ease;
+
+}
+
+.portfolio ul a:hover {
+	background: #16a086;
+	text-decoration: none;
+}
